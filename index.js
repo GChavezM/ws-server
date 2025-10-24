@@ -13,6 +13,11 @@ import {
 const PORT = process.env.PORT || 3000;
 
 const app = express();
+
+app.get('/hello', (req, res) => {
+	res.json({ message: 'Hello, world!' });
+});
+
 const httpServer = createServer(app);
 
 const io = new Server(httpServer, {
