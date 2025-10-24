@@ -1,0 +1,60 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node (common server setups)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.pnp/
+.cache/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# Build / output / temp
+dist/
+build/
+out/
+tmp/
+.temp/
+coverage/
+coverage/lcov.info
+
+# Dart / Flutter (in case the server uses Dart)
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-version
+generated_plugin_registrant.dart
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.sublime-*
+*.swp
+*~
+
+# Misc
+*.pid
+*.seed
+*.backup
